@@ -1,0 +1,24 @@
+{
+"products": [
+{"id":1,"name":"Hyena, brown","category":"Yellow"},
+{"id":2,"name":"Avocet, pied","category":"Red"},
+{"id":3,"name":"Red brocket","category":"Mauv"},
+{"id":4,"name":"Llama","category":"Yellow"},
+{"id":5,"name":"Green-winged trumpeter","category":"Red"},
+{"id":6,"name":"Brush-tailed phascogale","category":"Turquoise"},
+{"id":7,"name":"Swan, black","category":"Pink"},
+{"id":8,"name":"Cottonmouth","category":"Goldenrod"},
+{"id":9,"name":"Beaver, american","category":"Indigo"},
+{"id":10,"name":"Possum, golden brush-tailed","category":"Mauv"},
+{"id":11,"name":"Snake-necked turtle","category":"Turquoise"},
+{"id":12,"name":"Indian giant squirrel","category":"Crimson"},
+{"id":13,"name":"Deer, white-tailed","category":"Aquamarine"},
+{"id":14,"name":"Sun gazer","category":"Crimson"},
+{"id":15,"name":"Black-collared barbet","category":"Green"},
+{"id":16,"name":"Leopard, indian","category":"Blue"},
+{"id":17,"name":"Armadillo, common long-nosed","category":"Yellow"},
+{"id":18,"name":"Western lowland gorilla","category":"Green"},
+{"id":19,"name":"Ring-tailed possum","category":"Orange"},
+{"id":20,"name":"Civet (unidentified)","category":"Violet"}
+]
+}
