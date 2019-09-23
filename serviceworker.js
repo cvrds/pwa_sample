@@ -1,17 +1,19 @@
 var CACHE_NAME = 'pwa_sample-cache-v1';
 var urlsToCache = [
-  './',
-  './style.css',
-  './jquery-3.4.1.min.js',
-  './main.js',
-  './logo.png'
+  'https://raw.githubusercontent.com/cvrds/pwa_sample/master/css/sytle.css',
+  'https://raw.githubusercontent.com/cvrds/pwa_sample/master/image/logo.png',
+  'https://raw.githubusercontent.com/cvrds/pwa_sample/master/js/jquery-3.4.1.min.js',
+  'https://raw.githubusercontent.com/cvrds/pwa_sample/master/js/main.js',
+//   '/css/style.css',
+//   '/js/jquery-3.4.1.min.js',
+//   '/js/main.js',
+//   '/image/logo.png'
 ];
 
 self.addEventListener('install', function(event) {
     // Perform install steps
     event.waitUntil(
-        caches.open(CACHE_NAME)
-          .then(function(cache) {
+        caches.open(CACHE_NAME).then(function(cache) {
             console.log('Opened cache');
             return cache.addAll(urlsToCache);
         })
